@@ -1,0 +1,43 @@
+.guage {
+    position: relative;
+     top: 0;
+     left: 0;
+}
+.scale {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .needle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+ }
+ .bugimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+ }
+ .flagimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+
+ .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+ .circle {
+   position: absolute;
+   top: 170px;
+   left: 90px;
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   background: radial-gradient(circle, rgba(168,28,28,1) 0%, rgba(58,21,21,1) 100%);
+ }
