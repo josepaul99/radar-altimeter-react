@@ -13,7 +13,6 @@ let lightOn = false;
 
 function FlagImg(props) {
   if (props.poweron) {
-    lightOn = false
     return null;
   }
 
@@ -132,6 +131,7 @@ class Altimeter extends React.Component {
     if (this.state.powerOn == true) {
       altExceedBug = false;
       altRecedeBug = false;
+      lightOn = false
     }
 
   }
